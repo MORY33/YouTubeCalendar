@@ -71,7 +71,7 @@
                 <PasswordBox x:Name="PasswordLoginInput" Style="{StaticResource PasswordStyle}" Grid.Row="3" Grid.Column="1" />
 
                 <Button x:Name="LoginButton" Content="Login" Click="LoginButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="4" Grid.Column="1"/>
-                <Button x:Name="GoToCreateUserButton" Content="Go to create User" Click="GoToCreateUserButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="5" Grid.Column="1"/>
+                <Button x:Name="GoToCreateUserButton" Content="Register" Click="GoToCreateUserButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="5" Grid.Column="1"/>
             </Grid>
 
             <!-- Create User Panel -->
@@ -91,13 +91,15 @@
                 </Grid.RowDefinitions>
 
                 <Label Content="Login:" Grid.Row="0" Grid.Column="1"/>
-                <TextBox x:Name="NewLoginInput" Style="{StaticResource InputStyle}" Grid.Row="1" Grid.Column="1"/>
+                <TextBox x:Name="LoginInput" Style="{StaticResource InputStyle}" Grid.Row="1" Grid.Column="1"/>
 
                 <Label Content="Password:" Grid.Row="2" Grid.Column="1"/>
                 <PasswordBox x:Name="PasswordInput" Style="{StaticResource PasswordStyle}" Grid.Row="3" Grid.Column="1"/>
 
                 <Button x:Name="CreateUserButton" Content="Add User" Click="CreateUserButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="4" Grid.Column="1"/>
                 <Button x:Name="GoToLoginButton" Content="Back to Login" Click="GoToLoginButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="5" Grid.Column="1"/>
+                <ListBox x:Name="UserList" DisplayMemberPath="Login" Visibility="Collapsed"/>
+                
                 
             </Grid>
         </Grid>
