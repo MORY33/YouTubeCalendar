@@ -130,6 +130,14 @@
                 <Setter Property="BorderThickness" Value="1" />
             </Style>
 
+            <Style x:Key="PasswordStyle" TargetType="PasswordBox">
+                <Setter Property="Margin" Value="0 0 0 10" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="BorderBrush" Value="Gray" />
+                <Setter Property="BorderThickness" Value="1" />
+            </Style>
+
             <Style x:Key="ButtonStyle" TargetType="Button">
                 <Setter Property="Margin" Value="0 10 0 10" />
                 <Setter Property="Padding" Value="10 5" />
@@ -152,31 +160,65 @@
             
         </ResourceDictionary>
     </Window.Resources>
-    <Grid  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="3*" />
-            <ColumnDefinition Width="1*" />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
+    <Grid>
+        <Grid Grid.Column="1" >
+            <!-- Login Panel -->
+            <Grid x:Name="LoginPanel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
 
-        <Label Content="Login:" Grid.Row="0" Grid.Column="1" />
-        <TextBox x:Name="LoginInput" Style="{StaticResource InputStyle}" Grid.Row="1" Grid.Column="1" />
+                <Label Content="Username:" Grid.Row="0" Grid.Column="1"/>
+                <TextBox x:Name="UsernameInput" Style="{StaticResource InputStyle}" Grid.Row="1" Grid.Column="1"/>
 
-        <Label Content="Password:" Grid.Row="2" Grid.Column="1" />
-        <TextBox x:Name="PasswordInput" Style="{StaticResource InputStyle}" Grid.Row="3" Grid.Column="1" />
+                <Label Content="Password:" Grid.Row="2" Grid.Column="1"/>
+                <PasswordBox x:Name="PasswordLoginInput" Style="{StaticResource PasswordStyle}" Grid.Row="3" Grid.Column="1" />
 
-        <Button x:Name="AddUserButton" Content="Add User" Click="AddUserButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="4" Grid.Column="1" />
-        <Label Content="Users:" Grid.Row="5" Grid.Column="1" />
-        <ListBox x:Name="UserList" DisplayMemberPath="Login" Style="{StaticResource ListBoxStyle}" Grid.Row="6" Grid.Column="1"/>
+                <Button x:Name="LoginButton" Content="Login" Click="LoginButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="4" Grid.Column="1"/>
+                <Button x:Name="GoToCreateUserButton" Content="Go to create User" Click="GoToCreateUserButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="5" Grid.Column="1"/>
+            </Grid>
+
+            <!-- Create User Panel -->
+            <Grid x:Name="CreateUserPanel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" Visibility="Collapsed">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Content="Login:" Grid.Row="0" Grid.Column="1"/>
+                <TextBox x:Name="NewLoginInput" Style="{StaticResource InputStyle}" Grid.Row="1" Grid.Column="1"/>
+
+                <Label Content="Password:" Grid.Row="2" Grid.Column="1"/>
+                <PasswordBox x:Name="PasswordInput" Style="{StaticResource PasswordStyle}" Grid.Row="3" Grid.Column="1"/>
+
+                <Button x:Name="CreateUserButton" Content="Add User" Click="CreateUserButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="4" Grid.Column="1"/>
+                <Button x:Name="GoToLoginButton" Content="Back to Login" Click="GoToLoginButton_Click" Style="{StaticResource ButtonStyle}" Grid.Row="5" Grid.Column="1"/>
+                
+            </Grid>
+        </Grid>
     </Grid>
+
+
+
 
 
 </Window>
