@@ -28,30 +28,35 @@ namespace YouTubeOfficial
         {
             InitializeComponent();
             _userService = new UserService(new UserMoviesContext());
-            UpdateUserList();
         }
 
         private void AddUserButton_Click(object sender, RoutedEventArgs e)
         {
-            string login = LoginInput.Text;
-            string password = PasswordInput.Text;
-
-            if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
-            {
-                MessageBox.Show("Please enter both login and password.");
-                return;
-            }
-
-            var newUser = new User { Login = login, Password = password };
+            var newUser = new User { Login = "testowy", Password = "testowy" };
             _userService.AddNewUser(newUser);
             MessageBox.Show("New user added!");
-
-            UpdateUserList();
         }
 
-        private void UpdateUserList()
+        private void GoToCreateUserButton_Click(object sender, RoutedEventArgs e)
         {
-            UserList.ItemsSource = _userService.GetAllUsers();
+            LoginPanel.Visibility = Visibility.Collapsed;
+            CreateUserPanel.Visibility = Visibility.Visible;
+        }
+
+        private void GoToLoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            CreateUserPanel.Visibility = Visibility.Collapsed;
+            LoginPanel.Visibility = Visibility.Visible;
+        }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Your login logic here
+        }
+
+        private void CreateUserButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Your create user logic here
         }
     }
 }
