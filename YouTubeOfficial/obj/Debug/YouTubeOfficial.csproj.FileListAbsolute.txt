@@ -20,3 +20,5 @@ C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj
 C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.exe
 C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.pdb
 C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.InitialCreate.resources
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\AuthenticatedWindow.g.cs
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\AuthenticatedWindow.baml
