@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fixup! added sth called authentication (XD)
-﻿<Window x:Class="YouTubeOfficial.AuthenticatedWindow"
+<Window x:Class="YouTubeOfficial.AuthenticatedWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -15,21 +11,4 @@
 
     </Grid>
 </Window>
-<<<<<<< HEAD
-=======
-﻿<Window x:Class="YouTubeOfficial.AuthenticatedWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:YouTubeOfficial"
-        mc:Ignorable="d"
-        Title="AuthenticatedWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="dupacommit"/>
 
-    </Grid>
-</Window>
->>>>>>> added sth called authentication (XD)
-=======
->>>>>>> fixup! added sth called authentication (XD)
