@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fixup! added sth called authentication (XD)
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +29,7 @@ namespace YouTubeOfficial
         }
     }
 }
+<<<<<<< HEAD
 =======
 ﻿using System;
 using System.Collections.Generic;
@@ -55,3 +59,5 @@ namespace YouTubeOfficial
     }
 }
 >>>>>>> added sth called authentication (XD)
+=======
+>>>>>>> fixup! added sth called authentication (XD)

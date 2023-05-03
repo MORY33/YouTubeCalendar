@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fixup! added sth called authentication (XD)
 ﻿<Window x:Class="YouTubeOfficial.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -111,6 +114,7 @@
 
 
 </Window>
+<<<<<<< HEAD
 =======
 ﻿<Window x:Class="YouTubeOfficial.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -225,3 +229,5 @@
 
 </Window>
 >>>>>>> fixup! initial
+=======
+>>>>>>> fixup! added sth called authentication (XD)
