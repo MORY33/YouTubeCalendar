@@ -18,6 +18,8 @@ namespace YouTubeOfficial.Models
         public DbSet<User> Users { get; set; }
         public DbSet<Movie> Movies { get; set; }
 
+        public DbSet<Video> Videos { get; set; }
+
     }
 
 }
