@@ -49,6 +49,18 @@ namespace YouTubeOfficial
                 return context.Users.Any(u => u.Login == login && u.Password == password);
             }
         }
+        private int? GetUserId(string login, string password)
+        {
+            using (var context = new UserMoviesContext())
+            {
+                var user = context.Users.FirstOrDefault(u => u.Login == login && u.Password == password);
+                if (user != null)
+                {
+                    return user.ID;
+                }
+                return null;
+            }
+        }
 
         private string HashPassword(string password)
         {
@@ -70,11 +82,12 @@ namespace YouTubeOfficial
             string login = UsernameInput.Text;
             string password = PasswordLoginInput.Password;
 
-
+            
             if (UserExists(login, password))
             {
+                int? userId = GetUserId(login, password);
                 // Navigate to the second window
-                AuthenticatedWindow authenticatedWindow = new AuthenticatedWindow();
+                AuthenticatedWindow authenticatedWindow = new AuthenticatedWindow(userId.Value);
                 authenticatedWindow.Show();
                 this.Close();
             }

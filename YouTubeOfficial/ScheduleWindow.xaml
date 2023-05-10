@@ -1,0 +1,23 @@
+﻿<Window x:Class="YouTubeOfficial.ScheduleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Schedule" Height="400" Width="713">
+    <Grid>
+        <DataGrid x:Name="moviesDataGrid" AutoGenerateColumns="False" Width="auto">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}" />
+                <DataGridTextColumn Header="Session Date" Binding="{Binding sessionDate}" />
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" />
+                <DataGridTextColumn Header="Link" Binding="{Binding Link}" />
+                <DataGridTemplateColumn Header="Remove">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="X" Click="RemoveMovieButton_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
+

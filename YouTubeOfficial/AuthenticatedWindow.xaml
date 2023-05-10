@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YouTubeOfficial"
+        xmlns:controls="clr-namespace:System.Windows.Controls;assembly=PresentationFramework"
         mc:Ignorable="d"
         Title="AuthenticatedWindow" Height="450" Width="800"
         Loaded="Window_Loaded">
@@ -16,15 +17,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
-            <Button Name="LogoutButton" Content="Logout" Background="#007ACC" Foreground="White" BorderThickness="0" Padding="10,5" Click="LogoutButton_Click">
-                <Button.Template>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Button.Template>
-            </Button>
+            <DatePicker x:Name="WatchDateDatePicker" Margin="0 0 10 0"/>
         </StackPanel>
         <DataGrid AutoGenerateColumns="False" Name="VideoGrid" MaxWidth="800" AlternationCount="2" FontSize="14" GridLinesVisibility="None" 
               Grid.Row="1" Grid.Column="0">
@@ -64,9 +57,9 @@
                 </Style>
             </DataGrid.Resources>
             <DataGrid.Columns>
-                
+
                 <DataGridTemplateColumn Header="Video" Width="Auto" MaxWidth="200">
-                    
+
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Grid>
@@ -81,8 +74,8 @@
                                         <RowDefinition Height="*"/>
                                         <RowDefinition Height="Auto"/>
                                     </Grid.RowDefinitions>
-                                    
-                                    <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="1" Width="20" Height="20" Margin="5">
+
+                                    <Button Name="AddButton" Style="{StaticResource RoundButtonStyle}" Grid.Row="1" Width="20" Height="20" Margin="5" Click="AddButton_Click">
                                         <TextBlock Text="+" FontSize="14" FontWeight="Bold" Foreground="White" />
                                     </Button>
                                 </Grid>
@@ -90,7 +83,7 @@
                             </Grid>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
-                    
+
                     <DataGridTemplateColumn.HeaderStyle>
                         <Style TargetType="{x:Type DataGridColumnHeader}">
                             <Setter Property="HorizontalContentAlignment" Value="Stretch" />
@@ -116,12 +109,31 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                
+
 
                 <!-- <DataGridTextColumn Header="Description" Binding="{Binding Snippet.Description}" Width="*" /> -->
 
             </DataGrid.Columns>
         </DataGrid>
+        <Button x:Name="LogoutButton" Content="Logout" Background="#007ACC" Foreground="White" BorderThickness="0" Padding="10,5" Click="LogoutButton_Click" Margin="10,9,710,9">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <ListBox x:Name="MovieList" DisplayMemberPath="Login" Visibility="Collapsed"/>
+        <Button x:Name="ScheduleButton" Content="Schedule" Background="#007ACC" Foreground="White" BorderThickness="0" Padding="10,5" Click="ScheduleButton_Click" Margin="349,9,349,9">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
     </Grid>
 </Window>
 
