@@ -84,3 +84,47 @@ C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj
 C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.pdb
 C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\ScheduleWindow.baml
 C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\ScheduleWindow.g.cs
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\YouTubeOfficial.exe.config
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\YouTubeOfficial.exe
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\YouTubeOfficial.pdb
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\EntityFramework.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.Auth.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.Core.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Newtonsoft.Json.dll
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\EntityFramework.xml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.pdb
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.xml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.Auth.xml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.Core.pdb
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.Core.xml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.pdb
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.xml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\bin\Debug\Newtonsoft.Json.xml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.AssemblyReference.cache
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.SuggestedBindingRedirects.cache
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\ScheduleWindow.baml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\AuthenticatedWindow.g.cs
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\MainWindow.g.cs
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\ScheduleWindow.g.cs
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\App.g.cs
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial_MarkupCompile.cache
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial_MarkupCompile.lref
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\AuthenticatedWindow.baml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\MainWindow.baml
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.g.resources
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.InitialCreate.resources
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.MyMigrationName.resources
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.MyMigrationName1.resources
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.Properties.Resources.resources
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.GenerateResource.cache
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.CoreCompileInputs.cache
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.CopyComplete
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.exe
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\YouTubeOfficial.pdb

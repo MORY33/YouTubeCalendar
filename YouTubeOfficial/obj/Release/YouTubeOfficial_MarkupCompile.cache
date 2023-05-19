@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Debug\
+C:\Users\szymi\source\repos\main2\YouTubeOfficial\obj\Release\
 YouTubeOfficial
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\szymi\source\repos\main2\YouTubeOfficial\App.xaml
 3-1750408961
 
@@ -16,5 +16,5 @@ C:\Users\szymi\source\repos\main2\YouTubeOfficial\App.xaml
 25-4829689
 AuthenticatedWindow.xaml;MainWindow.xaml;ScheduleWindow.xaml;
 
-False
+True
 

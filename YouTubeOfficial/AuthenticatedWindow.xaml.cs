@@ -65,12 +65,13 @@ namespace YouTubeOfficial
                 ApplicationName = "YtCalendar"
             });
 
-            var playlistItemsRequest = youtubeService.PlaylistItems.List("snippet");
-            playlistItemsRequest.PlaylistId = "PLUPnAD_KMe8byysGeCZiBMKGrgWB0YvPg";
-            playlistItemsRequest.MaxResults = 50;
-            var playlistItemsResponse = await playlistItemsRequest.ExecuteAsync();
-            Console.WriteLine(playlistItemsResponse.Items);
-            VideoGrid.ItemsSource = playlistItemsResponse.Items;
+            var videosRequest = youtubeService.Videos.List("snippet");
+            videosRequest.Chart = VideosResource.ListRequest.ChartEnum.MostPopular;
+            videosRequest.MaxResults = 50;
+            var videosResponse = await videosRequest.ExecuteAsync();
+
+            Console.WriteLine(videosResponse.Items);
+            VideoGrid.ItemsSource = videosResponse.Items;
         }
 
 
@@ -88,10 +89,10 @@ namespace YouTubeOfficial
             mainWindow.Show();
             this.Close();
         }
-       
+
         private async void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            var selectedVideo = (Google.Apis.YouTube.v3.Data.PlaylistItem)VideoGrid.SelectedItem;
+            var selectedVideo = (Google.Apis.YouTube.v3.Data.Video)VideoGrid.SelectedItem;
             if (selectedVideo == null)
             {
                 MessageBox.Show("Please select a video to add to the playlist");
@@ -106,44 +107,36 @@ namespace YouTubeOfficial
                     ResourceId = new Google.Apis.YouTube.v3.Data.ResourceId
                     {
                         Kind = "youtube#video",
-                        VideoId = selectedVideo.Snippet.ResourceId.VideoId
+                        VideoId = selectedVideo.Id
                     },
                     Title = selectedVideo.Snippet.Title,
                     Description = selectedVideo.Snippet.Description,
                     PublishedAt = WatchDateDatePicker.SelectedDate ?? DateTime.Now // Use selected date or current date if none selected
-                    
-        }
+                }
             };
 
             try
             {
-                var youtubeService = this.youtubeService;
+                var playlistItemsInsertRequest = youtubeService.PlaylistItems.Insert(newPlaylistItem, "snippet");
+                await playlistItemsInsertRequest.ExecuteAsync();
 
-
-                await youtubeService.PlaylistItems.Insert(newPlaylistItem, "snippet").ExecuteAsync();
                 var newMovie = new Movie();
-
-                
                 newMovie.sessionDate = WatchDateDatePicker.SelectedDate ?? DateTime.Now;
-
-                
                 newMovie.Title = selectedVideo.Snippet.Title;
-                newMovie.Link = $"https://www.youtube.com/watch?v={selectedVideo.Snippet.ResourceId.VideoId}";
+                newMovie.Link = $"https://www.youtube.com/watch?v={selectedVideo.Id}";
                 newMovie.UserId = _userId;
 
-                
                 var userService = new UserService(new UserMoviesContext());
                 userService.AddNewMovie(newMovie);
 
-
                 MessageBox.Show("Video added to playlist successfully!");
-                
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error adding video to playlist: " + ex.Message);
             }
         }
+
 
         private void UpdateMovieList()
         {
