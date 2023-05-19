@@ -1,0 +1,86 @@
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\YouTubeOfficial.exe.config
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\YouTubeOfficial.exe
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\YouTubeOfficial.pdb
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\EntityFramework.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\EntityFramework.xml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.AssemblyReference.cache
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\MainWindow.g.cs
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\App.g.cs
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial_MarkupCompile.cache
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial_MarkupCompile.lref
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\MainWindow.baml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.g.resources
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.Properties.Resources.resources
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.GenerateResource.cache
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.CoreCompileInputs.cache
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.CopyComplete
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.exe
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.pdb
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.InitialCreate.resources
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\AuthenticatedWindow.g.cs
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\AuthenticatedWindow.baml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.Auth.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.Core.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.pdb
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.xml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.Auth.xml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.Core.pdb
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.Core.xml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.pdb
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.xml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.MyMigrationName.resources
+C:\Users\rafal\Documents\STUDIA\SEM6\dotnet\OFICJALNY_KONIEC\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.MyMigrationName1.resources
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\YouTubeOfficial.exe.config
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\YouTubeOfficial.exe
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\YouTubeOfficial.pdb
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\EntityFramework.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.Auth.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.Core.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Newtonsoft.Json.dll
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\EntityFramework.xml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.pdb
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.xml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.Auth.xml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.Core.pdb
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.Core.xml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.pdb
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Google.Apis.YouTube.v3.xml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\bin\Debug\Newtonsoft.Json.xml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.AssemblyReference.cache
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.SuggestedBindingRedirects.cache
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\AuthenticatedWindow.g.cs
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\MainWindow.g.cs
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\App.g.cs
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial_MarkupCompile.cache
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial_MarkupCompile.lref
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\AuthenticatedWindow.baml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\MainWindow.baml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.g.resources
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.InitialCreate.resources
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.MyMigrationName.resources
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.Migrations.MyMigrationName1.resources
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.Properties.Resources.resources
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.GenerateResource.cache
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.CoreCompileInputs.cache
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.csproj.CopyComplete
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.exe
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\YouTubeOfficial.pdb
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\ScheduleWindow.baml
+C:\Users\szymi\OneDrive\Pulpit\Studia\sem 6\.NET i Java\.NET\YouTubeOfficial\obj\Debug\ScheduleWindow.g.cs

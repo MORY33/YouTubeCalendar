@@ -1,0 +1,139 @@
+<Window x:Class="YouTubeOfficial.AuthenticatedWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YouTubeOfficial"
+        xmlns:controls="clr-namespace:System.Windows.Controls;assembly=PresentationFramework"
+        mc:Ignorable="d"
+        Title="AuthenticatedWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <DatePicker x:Name="WatchDateDatePicker" Margin="0 0 10 0"/>
+        </StackPanel>
+        <DataGrid AutoGenerateColumns="False" Name="VideoGrid" MaxWidth="800" AlternationCount="2" FontSize="14" GridLinesVisibility="None" 
+              Grid.Row="1" Grid.Column="0">
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#007ACC" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="Padding" Value="6,3" />
+                </Style>
+                <Style TargetType="{x:Type DataGridCell}">
+                    <Setter Property="Padding" Value="6,3" />
+                </Style>
+                <Style TargetType="{x:Type DataGrid}">
+                    <Setter Property="RowHeaderWidth" Value="0" />
+                    <Setter Property="CanUserAddRows" Value="False" />
+                    <Setter Property="SelectionMode" Value="Single" />
+                    <Setter Property="AlternatingRowBackground" Value="#F2F2F2" />
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                </Style>
+                <Style x:Key="RoundButtonStyle" TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#007ACC" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="Padding" Value="10,5" />
+                    <Setter Property="BorderThickness" Value="0" />
+                    <Setter Property="BorderBrush" Value="Transparent" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="{TemplateBinding BorderThickness}" />
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+
+                <DataGridTemplateColumn Header="Video" Width="Auto" MaxWidth="200">
+
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Text="{Binding Snippet.Title}" VerticalAlignment="Top" TextWrapping="Wrap" FontSize="16"/>
+                                <Grid Grid.Row="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Button Name="AddButton" Style="{StaticResource RoundButtonStyle}" Grid.Row="1" Width="20" Height="20" Margin="5" Click="AddButton_Click">
+                                        <TextBlock Text="+" FontSize="14" FontWeight="Bold" Foreground="White" />
+                                    </Button>
+                                </Grid>
+                                <Image Source="{Binding Snippet.Thumbnails.Medium.Url}" Width="150" Height="100" Margin="0,55,0,0" VerticalAlignment="Top"/>
+                            </Grid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Description" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Height="150">
+                                <ScrollViewer.Style>
+                                    <Style TargetType="{x:Type ScrollViewer}">
+                                        <Setter Property="CanContentScroll" Value="False"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsKeyboardFocusWithin, RelativeSource={RelativeSource AncestorType=TextBlock}}" Value="True">
+                                                <Setter Property="CanContentScroll" Value="True"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ScrollViewer.Style>
+                                <TextBlock Text="{Binding Snippet.Description}" TextWrapping="Wrap" FontSize="12" Margin="0,10,0,0"/>
+                            </ScrollViewer>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+
+                <!-- <DataGridTextColumn Header="Description" Binding="{Binding Snippet.Description}" Width="*" /> -->
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="LogoutButton" Content="Logout" Background="#007ACC" Foreground="White" BorderThickness="0" Padding="10,5" Click="LogoutButton_Click" Margin="10,9,710,9">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <ListBox x:Name="MovieList" DisplayMemberPath="Login" Visibility="Collapsed"/>
+        <Button x:Name="ScheduleButton" Content="Schedule" Background="#007ACC" Foreground="White" BorderThickness="0" Padding="10,5" Click="ScheduleButton_Click" Margin="349,9,349,9">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>
+
